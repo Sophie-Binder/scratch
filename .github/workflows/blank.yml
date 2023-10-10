@@ -31,7 +31,7 @@ jobs:
           java-version: '17'
 
       - name: C Cmpile HelloWorld.java
-        run: javac src/HelloWorld.java
+        run: javac HelloWorld.java
 
       - name: Run HelloWorld.java
-        run: java src/HelloWorld
+        run: java HelloWorld
