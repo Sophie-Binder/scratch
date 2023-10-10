@@ -30,8 +30,8 @@ jobs:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
 
-      - name: C Cmpile helloworld.java
-        run: javac helloworld.java
+      - name: C Cmpile helloWorld.java
+        run: javac helloWorld.java
 
-      - name: Run helloworld.java
-        run: java helloworld
+      - name: Run helloWorld.java
+        run: java helloWorld
